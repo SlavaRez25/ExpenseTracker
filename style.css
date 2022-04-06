@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: #141E55;
+    font-family: 'PT Serif', serif;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 2rem;
+}
+
+.header{
+    font-size: 2rem;
+}
+
+.main{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topbar {
+    background: #141E55;
+    color: white;
+    padding: 20px;
+    min-width: 300px;
+}
+
+.text{
+    color: gray;
+    font-size: 0.8rem;
+    margin-bottom: 2px;
+}
+
+.amount_holder{
+    font-size: 2rem;
+}
+
+.form{
+    background-color:#8080806b;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form p {
+    font-size: 1.4rem;
+}
+
+label, input{
+    display: block;
+}
+
+input{
+    padding: 5px 10px;
+}
+
+.form-control{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.radio{
+    display:flex;
+    align-items: center;
+}
+
+button{
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.btn{
+    display: block;
+    width: 100%;
+    background-color: #141E55;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover{
+    background-color: #445ce0;
+}
+
+p.heading{
+    margin: 10px 0;
+}
+
+ul{
+    list-style: none;    
+}
+
+#list_of_transactions{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    margin: 5px 0;
+}
+
+.income{
+    background-color: #141E55;
+}
+
+.expense{
+    background-color: #851f0d;
+}
+
+.right_side{
+    display: flex;
+    gap: 20px;
+}
+
+.right_side button{
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.right_side button{
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.right_side button:hover{
+    color: #57e26a;
+}
+
+.footer {
+    background-color: #141E55;
+    font-family: 'PT Serif', serif;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 2rem;
+}
